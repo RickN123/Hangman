@@ -8,6 +8,7 @@
             if (phillynames [i] == letter) {
                 letterguess[i] = letter;
                 correctguess = true;
+                alert = "correct!"
 
             }
     

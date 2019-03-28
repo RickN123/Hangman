@@ -1,11 +1,14 @@
+* {
+  box-sizing: border-box;
+}
 
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 900px) {
         margin-left: auto;
         margin-right: auto;
         margin-top: auto;
         margin-bottom: auto;
-    box-sizing: border-box;
+  }
   
   #header{
     background-color: #ffffff;
@@ -27,10 +30,11 @@
     box-align: center;
     display: inline-block;
     box-align: center;
-    background-image: "phillyskyline.jpg";
     align-content: center;
     align-self: center;
     background-color: chartreuse;
+    margin-left: 25%;
+    margin-right: 25%;
   }
 
   #name1 {
@@ -47,17 +51,7 @@
     width:100%;
     text-align: center;
 
-  }
-  #name1 {
-    background-color:aqua;
-    width: 50px;
-    height: 40px;
-    margin-left: 50px;
-    text-align:center;
-    display: inline-block;
-    position:absolute;
-    top:0;
-    left:0;
+  
   }
   #links {
     display:inline-block;
@@ -71,7 +65,7 @@
   #h1 {
     color: aqua;
   }
-  .content { 
+  #content { 
     
     align-content: center;
     height:60%;
