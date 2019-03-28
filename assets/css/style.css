@@ -1,6 +1,12 @@
 * {
+}
+@media screen and (max-width: 640px) {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
     box-sizing: border-box;
-  }
+  
   #header{
     background-color: #ffffff;
     height: 40px;
@@ -19,6 +25,7 @@
   #container {
     text-align: center;
     box-align: center;
+    display: inline-block;
     box-align: center;
     background-image: "phillyskyline.jpg";
     align-content: center;
@@ -109,7 +116,13 @@
     border-color:#4aaaa5; 
     margin-bottom:auto;
     min-height:45px;
+  }
 
+  #h1 {
+
+    text-align: center;
+    
+  }
 
 
   }
