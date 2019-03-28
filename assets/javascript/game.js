@@ -1,4 +1,7 @@
 
+function onkeyup
+    
+    
     var phillynames = "eagles"
     var letterguess = []
     var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -9,13 +12,17 @@
     function teamletters(letter) {
 
         for (var i = 0; i <phillynames.length; i++) {
-            if (phillynames [i] == letter) {
-                letterguess[i] = letter;
+            if (phillynames [i] == letterguess) {
+                letterguess[i] = alphabet;
                 correctguess = true;
                 alert = "correct!"
 
             }
-    
+            
+            document.onkeyup = function(event)
+                var letterguess =string.fromCharCode(event.keyCode).toUpperCase();
+                var enter = (event.keyCode);
+            }
 
             }
         }
