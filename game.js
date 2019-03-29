@@ -54,29 +54,7 @@ function updateCountsOnUI() {
 }
 
 initialize();
-/*
-
-document.onkeyup = function(event)
-    var computerguess = alphabet [(Math.floor(math.random()* alphabet.length)];
-
-    var userguess = String.fromCharCode(event.keyCode).toLowerCase();
-
-    if (userguess === correctguess) documen
-
-
     }
 
 
 
-            }
-
-
-
-            }
-        }
-
-    }
-
-
-
-*/
