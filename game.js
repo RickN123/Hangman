@@ -16,7 +16,7 @@ document.onkeypress = function(event)
 
     var userguess = String.fromCharCode(event.keyCode).toLowerCase();
 
-    if (userguess === correctguess) {win();
+    if (userguess === correctguess) {getElementById"countWins"(add1);
 
     } else {
         guessesLeft --;
@@ -45,7 +45,8 @@ document.onkeypress = function(event)
     document.getElementById('Losses').innerHTML= "Losses: " + losses;
     document.getElementById('guessesLeft').innerHTML = "GuessesLeft: " + guessesLeft
     document.getElementById('guessesDone').innerHTML = "GuessesDone: " + GuessesDone
-    DocumentType userguess= FormData;
+    
+    DocumentType userguess= ;
     )
     document.onkeypress = function(event) {
         var userkeyCode).toUpperCase();
@@ -53,13 +54,7 @@ document.onkeypress = function(event)
     var fromCharCode = add letterguess; 
     var keyCode= add letter;
 }
-    function teamletters(letter) {
-
-        for (var i = 0; i <phillynames.length; i++) {
-            if (phillynames [i] == letterguess) {
-                letterguess[i] = alphabet;
-                correctguess = true;
-                alert = "correct!"
+        
 
             }
             
