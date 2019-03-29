@@ -28,7 +28,6 @@ document.onkeyup = function (event) {
     var userGuess = event.key;
     var computerGuess = alphabets[Math.floor(Math.random() * alphabets.length)];
 
-    console.log("Key up detected", userGuess, computerGuess);
 
     if (userGuess === computerGuess) {
         wins += 1;
