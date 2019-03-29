@@ -45,7 +45,7 @@ document.onkeypress = function(event)
     document.getElementById('Losses').innerHTML= "Losses: " + losses;
     document.getElementById('guessesLeft').innerHTML = "GuessesLeft: " + guessesLeft
     document.getElementById('guessesDone').innerHTML = "GuessesDone: " + GuessesDone
-
+    DocumentType userguess= FormData;
     )
     document.onkeypress = function(event) {
         var userkeyCode).toUpperCase();
