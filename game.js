@@ -61,15 +61,7 @@ document.onkeyup = function(event)
 
     var userguess = String.fromCharCode(event.keyCode).toLowerCase();
 
-    if (userguess === correctguess) document.getElementById"countWins"(add1);
-
-    } else {
-        guessesLeft --;
-    }
-
-    if (guessesLeft == 0) {
-        loss ();
-    }
+    if (userguess === correctguess) documen
 
 
     }
