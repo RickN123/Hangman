@@ -82,23 +82,6 @@ document.onkeyup = function(event)
         reset();
     }
 
-    function reset () {
-        answer = alphabet[Math.floor(Math.random() * alphabet.length)];
-    }
-}
-    document.getElementById('Wins').innerHTML= "Wins: " + wins;
-    document.getElementById('Losses').innerHTML= "Losses: " + losses;
-    document.getElementById('guessesLeft').innerHTML = "GuessesLeft: " + guessesLeft
-    document.getElementById('guessesDone').innerHTML = "GuessesDone: " + GuessesDone
-
-    DocumentType userguess= ;
-    )
-    document.onkeypress = function(event) {
-        var userkeyCode).toUpperCase();
-    var enter = (event.keyCode);
-    var fromCharCode = add letterguess;
-    var keyCode= add letter;
-}
 
 
             }
