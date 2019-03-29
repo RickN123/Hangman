@@ -71,15 +71,7 @@ document.onkeyup = function(event)
         loss ();
     }
 
-    function win() {
-        wins++;
-        reset();
 
-    }
-
-    function loss () {
-        lossess++;
-        reset();
     }
 
 
