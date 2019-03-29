@@ -22,6 +22,8 @@ function onkeyup
             document.onkeyup = function(event)
                 var letterguess =string.fromCharCode(event.keyCode).toUpperCase();
                 var enter = (event.keyCode);
+                var fromCharCode = add letterguess; 
+                var keyCode= add letter;
             }
 
             }
